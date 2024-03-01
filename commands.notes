@@ -1,0 +1,30 @@
+git remote add scripts git@github.com:VitalyShirgazin/Scripts.git
+git push -u scripts main
+
+# Viewing Remote Repositories:
+   git remote: List all remote repositories.
+   git remote -v: Show URLs of remotes.
+
+# Adding Remote Repositories:
+   git remote add <name> <url>: Add a new remote repository.
+
+# Renaming and Removing Remotes:
+   git remote rename <old-name> <new-name>: Rename a remote.
+   git remote remove <name> or git remote rm <name>: Remove a remote.
+
+# Changing the URL of a Remote:
+   git remote set-url <name> <new-url>: Change the URL of a remote.
+
+# Fetch and Pull from Remotes:
+   git fetch <remote>: Fetch changes from a remote without merging.
+   git pull <remote> <branch>: Fetch and merge changes from a remote.
+
+# Pushing to Remotes:
+   git push <remote> <branch>: Push changes to a remote repository.
+
+# Show Information about the Origin:
+   git remote show <remote>: Show information about a remote, including remote branches and tracked branches.
+
+# Set Upstream Branch:
+   git branch -u <remote>/<branch> or git branch --set-upstream-to=<remote>/<branch>: Set the upstream branch.
+
