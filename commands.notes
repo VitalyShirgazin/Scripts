@@ -1,6 +1,5 @@
 ## Useful commands
 
-```bash
 # Viewing Remote Repositories:
    git remote: List all remote repositories.
    git remote -v: Show URLs of remotes.
@@ -29,4 +28,3 @@
 
 # Set Upstream Branch:
    git branch -u <remote>/<branch> or git branch --set-upstream-to=<remote>/<branch>: Set the upstream branch.
-```
