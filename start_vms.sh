@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Specify the names of your VirtualBox machines
-vm_names=("Ubuntu1_default_1709097750544_64164" "Ubuntu2_default_1709087631183_21903" "Ubuntu3_default_1709088295326_99110")
+vm_names=("Ubuntu1" "Ubuntu2" "Ubuntu3")
 
 # Start or report status for each VirtualBox machine
 for vm_name in "${vm_names[@]}"; do
@@ -24,12 +24,3 @@ for vm_name in "${vm_names[@]}"; do
         fi
     fi
 done
-
-
-
-
-
-
-# Ubuntu1_default_1709097750544_64164
-# Ubuntu2_default_1709087631183_21903
-# Ubuntu3_default_1709088295326_99110
