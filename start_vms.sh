@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Specify the names of your VirtualBox machines
-vm_names=("Ubuntu1" "Ubuntu2" "Ubuntu3")
+vm_names=("Ubuntu1" "Ubuntu2" "Ubuntu3" "CentOS1")
 
 # Start or report status for each VirtualBox machine
 for vm_name in "${vm_names[@]}"; do
