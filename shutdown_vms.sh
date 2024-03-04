@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Array of VM names
-vm_names=("Ubuntu1" "Ubuntu2" "Ubuntu3" "centOS1")
+vm_names=("Ubuntu1" "Ubuntu2" "Ubuntu3" "CentOS10")
 
 # Loop through each VM and gracefully shut it down using ACPI shutdown
 for vm_name in "${vm_names[@]}"; do
